@@ -1,8 +1,8 @@
 body{
     
-    background-image: url("download.jfif");
+    background-image: url("istockphoto-3.webp");
     background-repeat: no-repeat;
-    background-size: 200vh;
+    background-size: cover;
 }
 h1{
 
@@ -28,4 +28,19 @@ p{
 div.center
 {
     text-align: center;
+}
+a{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(243, 165, 63);
+}
+a:active{
+    color: rgb(12, 233, 233);
+}
+a:hover{
+    background-color: rgb(236, 235, 237);
+    color: red;
+}
+a:visited{
+    color: blueviolet;
 }
